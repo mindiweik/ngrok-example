@@ -4,7 +4,6 @@
   "description": "Use ngrok to showcase some of the essential functionality for \"live\" API endpoint and webhook testing.",
   "main": "index.js",
   "scripts": {
-    "test": "npm test",
     "watch": "npx tsc -w",
     "start": "nodemon dist/index.js",
     "basic-auth": "ngrok http 80 --basic-auth \"sierradevs:arethebest\"",
