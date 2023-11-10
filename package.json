@@ -6,8 +6,8 @@
   "scripts": {
     "watch": "npx tsc -w",
     "start": "nodemon dist/index.js",
-    "basic-auth": "ngrok http 80 --basic-auth \"sierradevs:arethebest\"",
-    "oauth": "ngrok http 80 --oauth \"google\""
+    "basic-auth": "ngrok http 3000 --basic-auth \"sierradevs:arethebest\"",
+    "oauth": "ngrok http 3000 --oauth \"google\""
   },
   "repository": {
     "type": "git",

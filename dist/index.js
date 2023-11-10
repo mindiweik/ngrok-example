@@ -36,7 +36,7 @@ const connect = () => __awaiter(void 0, void 0, void 0, function* () {
 });
 const startServer = () => __awaiter(void 0, void 0, void 0, function* () {
     try {
-        const listener = yield connect();
+        // await connect();
         app.use(express_1.default.static(path_1.default.join(__dirname, "dist")));
         app.use(body_parser_1.default.json());
         app.use(errorHandler);

@@ -27,7 +27,7 @@ const connect = async () => {
 
 const startServer = async () => { 
 	try {
-		const listener = await connect();
+		// await connect();
 
 		app.use(express.static(path.join(__dirname, "dist")));
 		app.use(bodyParser.json());
